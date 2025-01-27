@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
@@ -22,11 +22,20 @@
     "@angular/router": "^19.1.0",
     "@angular/ssr": "^19.1.4",
     "@azure/cosmos": "^4.2.0",
+    "@progress/kendo-angular-buttons": "^18.0.0",
+    "@progress/kendo-svg-icons": "^4.0.0",
     "ex-batch-heumann": "file:",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.15.0"
+    "zone.js": "~0.15.0",
+    "@progress/kendo-licensing": "^1.0.2",
+    "@progress/kendo-angular-common": "18.0.0",
+    "@progress/kendo-angular-l10n": "18.0.0",
+    "@progress/kendo-angular-popup": "18.0.0",
+    "@progress/kendo-angular-icons": "18.0.0",
+    "@angular/localize": "^19.1.0",
+    "@progress/kendo-theme-default": "^10.1.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.1.4",
